@@ -1,0 +1,119 @@
+.mainpage {
+	background:#FAFAFA;
+	width:100%; 
+	overflow:hidden;	
+}
+
+
+.container {
+	min-height:100vh;
+}
+
+
+.b-bottom {
+	height:850px;
+	margin-top:250px; 
+	margin-left:-210px;
+	margin-right:-190px;
+	background:#BCEBEE; 
+	transform:rotate(12deg); 
+}
+
+
+.body{
+	width:1080px; 
+	height:100vh;  
+	position:relative; 
+	margin-top:-1100px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	overflow: auto;			
+}
+
+
+.maincontent{
+	width:60%;
+	height:100vh;
+	margin:0px auto;
+	margin-top:-170vh;
+	position:relative; 
+}
+.welcome{
+	width:100%;
+	height:35vh;
+	background:#26CAD3;
+	margin-top:10px;
+}
+
+
+.connect{
+	width:100%;
+	height:62vh;
+	background:;
+	margin-bottom:10px;
+}
+
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+ 
+.en-box{
+			height:0px; 
+			width:0px; 
+			border-top:35px solid transparent;
+			border-right:35px solid #28AAB1;
+			border-bottom:35px solid #208489;
+			border-left:35px solid #28AAB1;
+			margin-top:-35px; 
+		}
+		.sheet{
+			width:60px; 
+			margin-left:5px; 
+			height:65px; 
+			background:#FFFFFF; 
+		}
+		.env{
+			width:410px; 
+			padding-bottom:10PX;
+			margin-left:270px; 			
+		}
+		.grad{
+			background: radial-gradient(closest-side, #000, gray, #fff);
+			height:10px; 
+			width:70px;
+			margin-left:270px; 			
+		}
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+ 
+.en-box{
+	height:0px; 
+	width:0px; 
+	border-top:200px solid transparent;
+	border-right:200px solid #0084E7;
+	border-bottom:200px solid red;
+	border-left:200px solid #0084E7;
+	margin-top:-200px; 
+}
+
+
+.sheet{
+width:390px; 
+margin-left:5px; 
+height:450px; 
+background:purple; 
+}
+
+
+.env{
+width:410px; 
+padding-bottom:10PX; 
+}
+
+
+.grad{
+background: radial-gradient(closest-side, #000, gray, #fff);height:20px; width:400px; 
+		}
+}
